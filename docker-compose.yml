@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  togethershopping:
+    image: ${DOCKER_REGISTRY-}togethershopping
+    build:
+      context: .
+      dockerfile: ./Dockerfile
