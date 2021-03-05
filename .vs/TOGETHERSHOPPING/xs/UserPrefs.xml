@@ -1,7 +1,15 @@
-﻿<Properties StartupConfiguration="{0810F5A4-646D-49AD-86DA-46B48DB2A280}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Dockerfile">
+﻿<Properties StartupConfiguration="{46B64F3D-B03C-4C93-9A1F-F1D09D9B673A}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="bundleconfig.json">
     <Files>
-      <File FileName="Dockerfile" Line="1" Column="1" />
+      <File FileName="Dockerfile" Line="22" Column="1" />
+      <File FileName="Models/BusinessAccess/Member.cs" />
+      <File FileName="docker-compose.yml" />
+      <File FileName=".dockerignore" />
+      <File FileName="bundleconfig.json" Line="2" Column="11" />
+      <File FileName="Startup.cs" />
+      <File FileName="Program.cs" />
+      <File FileName="appsettings.json" />
+      <File FileName="Models/Response.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -9,7 +17,12 @@
           <Node name="TOGETHERSHOPPING" expanded="True">
             <Node name="docker-compose" expanded="True" />
             <Node name="TOGETHERSHOPPING" expanded="True">
-              <Node name="Dockerfile" selected="True" />
+              <Node name="Dependencies" expanded="True">
+                <Node name="PackageDependencies" expanded="True" />
+                <Node name="SdkDependencies" expanded="True">
+                  <Node name="Microsoft.NETCore.App" selected="True" />
+                </Node>
+              </Node>
             </Node>
           </Node>
         </State>
